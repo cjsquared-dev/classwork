@@ -1,46 +1,52 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8">
-    <title>Website from Scratch</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Website from Scratch</title>
 </head>
 
 <body>
     <header>
-        <h1>CJeezy's New Website</h1>
-        <nav>
+       <nav class="text-right">
             <ul>
-                <li id="Menu">MENU</li>
-                <li id="Products">PRODUCTS</li>
-                <li id="Contact US">CONTACT US</li>
+                <li> <a href="https://github.com">Github</a></li>
+                <li> <a href="#">Portfolio</a></li>
+                <li> <a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    </main>
-        <section>
+    <main>
+        <h1 class="text-center">CJeezy's New Website</h1>
+        <figure>
             <img src="./assets/image-1.png" alt="box with coming soon text"/>
-            <div class="caption">
-                New Features Coming Soon to a Browser Near You!!
-            </div>
-        </section>
-
-        <section>
-            <h3>Contact Me</h3>
-            <form action="">
-                <input type="text">
-                <input type="text">
-
+            <figcaption class="text-center">New Features Coming Soon to a Browser Near You!!</figcaption>
+        </figure>
+        <section id="contact">
+            <h2 class="text-center">Contact Me</h2>
+            <form>
+                <ul>
+                 <li>
+                    <label class="text-right" for="name">Name:</label>
+                    <input type="text" id="name" name="user-name">
+                 </li>
+                <li>
+                    <label class="text-right" for="name">Name:</label>
+                    <input type="text" id="email" name="user-email">
+                </li>
+                </ul>
+                <div class="text-center">
+                    <button type="submit">SEND</button>
+                </div>
             </form>
-
         </section>
+    </main>
 
-    <footer>CJeezySquared Inc. 2024</footer>
-
-
-
+    <footer class="text-center">
+        CJeezySquared Inc. 2024
+    </footer>
 </body>
 
 </html>
