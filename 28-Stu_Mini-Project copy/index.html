@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Snippet Cheatsheet</title>
+    <link rel="stylesheet" href="./assets/reset.css"/>
+    <link rel="stylesheet" href="./assets/style.css"/>
+    
+</head>
+
+
+<body>
+    <header >
+        <h1 class="opening-title">CSS Snippet Cheatsheet</h1>
+        <p>
+        Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permament home and add it to 
+        the page! Select any snippet below and it'll automatically select all of the code for your to copy.</p>
+        
+    </header>
+
+    <main>
+        <section class="snippet justify-center">
+            <div class="snippet-column">
+                <figure class="card snippet-card">
+                <h2 class="snippet-header">Flexbox Row</h2>
+                <div class="snippet-body">
+                    <p>Use these three properties to create a Flexbox row layout.</p>
+                </div>
+                        <pre class="css-code">
+<code>.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+</code></pre>
+                </figure> 
+            </div>
+
+            <div class="snippet-column">
+                <figure class="card snippet-card">
+                <h2 class="snippet-header">Flexbox Column</h2>
+                <div class="snippet-body">
+                    <p>Use this to create a Flexbox column layout.</p>
+                </div>
+                        <pre class="css-code">
+                
+<code>
+.column {
+    display: flex;
+    flex-direction: column;
+}
+                            </code></pre>
+                </figure> 
+            </div>
+
+            <div class="snippet-column">
+            <figure class=" card snippet-card">
+                <h2 class="snippet-header">CSS Grid Layout</h2>
+                <div class="snippet-body">
+                    <p>Build a 12-column layout using CSS Grid.</p>
+                </div>
+                        <pre class="css-code">
+<code>
+.grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns;
+    repeat(12, 1fr);
+}
+                            </code></pre>
+            </figure> 
+            </div>
+
+            <div class="snippet-column">
+            <figure class="card snippet-card">
+                <h2 class="snippet-header">Linear Gradients</h2>
+                <div class="snippet-body">
+                    <p>This will create a background linear gradient from top to bottom.</p>
+                </div>    
+                    <pre class="css-code">
+<code>.linear-gradient-background {
+background-image: linear-gradient(
+    rgba(232, 102, 236, 0.3) 0%,
+    rgba(232, 102, 236, 0.6) 100%
+    );
+}
+                            </code>
+                         </pre>
+            </figure> 
+             </div>
+
+            <div class="snippet-column">
+            <figure class="card snippet-card"> 
+                <h2 class="snippet-header">Box Transition Glow</h2>
+                <div class="snippet-body">
+                    <p>Use transition and box shadows to glow on hover.</p>
+                </div>
+                        <pre class="css-code">
+                            <code>
+.code-card .card-header {
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+.code-card:hover, 
+.code-card:hover .card-header {
+    box-shadows: inset 0px 0 px 8 px
+    rgba(232, 102, 236, 1), 0 0 15px
+    rgba(232, 102, 236, 1);
+}
+                            </code>
+
+                         </pre>
+            </figure> 
+            </div>
+
+            <div class="snippet-column">
+            <figure class="card snippet-card"> 
+                <h2 class="snippet-header">Overlay Card with Title</h2>
+                <div class="snippet-body">
+                    <p>Use position properties and negative margins to raise elements higher than their natural starting point.</p>
+                </div>    
+                    <pre class="css-code">
+                            <code>
+.card-header {
+    position: relative;
+    margin-top: -20px;
+}
+                            </code>
+
+                        </pre>
+            </figure> 
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Made with <span role="img" aria-label="heart">❤️</span> and CSS</h3>
+    </footer>
+    
+</body>
+</html>
