@@ -82,13 +82,12 @@ nav a:last-child {
 }
 
 main {
-  margin-top: 20px;
   margin-bottom: 45px;
 }
 
 .hero-banner {
   background: rgb(68, 88, 120);
-  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background-image: url("https://media.licdn.com/dms/image/v2/C5616AQH3zO0tzsc0Eg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1544639965554?e=1729728000&v=beta&t=rMwv9LSz6EMFeJ2Plu8UjV8X67tGNFP3jlmDvLdijNM"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
   background-size: cover;
   background-position: center;
   background-blend-mode: soft-light;
@@ -222,26 +221,29 @@ main {
 /* portfolio project images */
 /* TODO: Add portfolio project images here using background images*/
 .run-buddy {
-  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
-  
+  background-image: url("https://cdn.dribbble.com/userupload/5276791/file/still-50b4488627569073906e254b7b35a591.gif?resize=400x0"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background-size: cover;
 }
 
-.led-wall {
-  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+.simple_app {
+  background-image: url("../images/Simple\ Web\ App\ .jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background-size: cover;
 }
 
 .react-calc {
-  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
-  
+  background-image: url("https://screenshots.codesandbox.io/s8z6w/58.png"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background-size: cover;
 }
 
 .pastel-puzzles {
-  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background-image: url("https://ih1.redbubble.net/image.1526798760.1089/raf,360x360,075,t,fafafa:ca443f4786.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background-size: cover;
   
 }
 
-.surf-report {
-  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+.css-cheatsheet {
+  background-image: url("../images/CSS_Cheatsheet.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background-size: cover;
   
 }
 
@@ -281,4 +283,16 @@ main {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .flex-item{
+    min-height: 100px;
+    max-height: 100px;
+  }
+
+  .flex-container {
+    flex-direction: column;
+
+  }
+  
+}
 /* TODO: add media query for a max-width of 768px */

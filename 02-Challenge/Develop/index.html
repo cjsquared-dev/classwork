@@ -12,9 +12,9 @@
     <header>
         <h1 class="page title">Chris Johnson</h1>
         <nav class = navbar>
-            <a href="#">About Me</a>
-            <a href="#">Work</a>
-            <a href="#">Contact Me</a>
+            <a href="#About Me">About Me</a>
+            <a href="#Work">Work</a>
+            <a href="#Contact Me">Contact Me</a>
             <a href="#">Resume</a>
         </nav>
     </header>
@@ -25,6 +25,8 @@
     <div class="hero-banner">
         <h2>My Web App Projects</h2>          
     </div>
+
+    <section id="About Me">
     <div class="page-section">
         <h2>About Me</h2>
         <div class="page-wrapper">
@@ -35,49 +37,53 @@
         </p>
         </div>
     </div> 
+    </section>
 
+    <section id="Work">
     <div class="page-section">
         <h2>Work</h2>
         <div class="flex-container">
-        <div class="flex-item">
+        <a href="/Users/chrisjoh/bootcamp/classwork/28-Stu_Mini-Project copy/index.html" class="flex-item css-cheatsheet">
             <div>
-                <h3>My Sample App</h3>
-                <h4>A Simple CSS Cheatsheet</h4>
+                <h3>CSS Cheatsheet</h3>
+                <h4>A CSS Guide for Beginners</h4>
+            </div>
+        </a>
+
+        <a href="https://github.com/cjsquared-dev/classwork/blob/main/Module%201%20Mini%20Project/index.html" class="flex-item simple_app">
+            <div>
+                <h3>Simple App</h3>
+                <h4>My First App</h4>
+            </div>
+        </a>
+
+        <div class="flex-item react-calc">
+            <div>
+                <h3>Calculator</h3>
+                <h4>React/Javascript/CSS</h4>
             </div>
         </div>
 
-        <div class="flex-item">
+        <div class="flex-item pastel-puzzles ">
             <div>
-                <h3>My Sample App</h3>
-                <h4>A Simple CSS Cheatsheet</h4>
+                <h3>Pastel Puzzles</h3>
+                <h4>MERN Stack</h4>
             </div>
         </div>
 
-        <div class="flex-item">
+        <div class="flex-item run-buddy">
             <div>
-                <h3>My Sample App</h3>
-                <h4>A Simple CSS Cheatsheet</h4>
-            </div>
-        </div>
-
-        <div class="flex-item">
-            <div>
-                <h3>My Sample App</h3>
-                <h4>A Simple CSS Cheatsheet</h4>
-            </div>
-        </div>
-
-        <div class="flex-item">
-            <div>
-                <h3>My Sample App</h3>
-                <h4>A Simple CSS Cheatsheet</h4>
+                <h3>Run Buddy</h3>
+                <h4>HTML/CSS</h4>
             </div>
         </div>
         
         </div>
 
     </div>
-
+    </section>
+    
+    <section id="Contact Me">
     <div class="page-section">
         <h2>Contact Me</h2>
         <div class="contact">
@@ -89,6 +95,7 @@
             </address>  
         </div>
     </div>
+    </section>
 
 
 </main>
