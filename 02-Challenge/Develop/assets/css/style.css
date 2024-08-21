@@ -231,17 +231,17 @@ main {
 }
 
 .react-calc {
-  background-image: url("https://screenshots.codesandbox.io/s8z6w/58.png"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background-image: url("../images/react\ calculator.png"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
   background-size: cover;
 }
 
 .pastel-puzzles {
-  background-image: url("https://ih1.redbubble.net/image.1526798760.1089/raf,360x360,075,t,fafafa:ca443f4786.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background-image: url("../images/pastel\ puzzles.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
   background-size: cover;
   
 }
 
-.css-cheatsheet {
+.surf-report {
   background-image: url("../images/CSS_Cheatsheet.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
   background-size: cover;
   
@@ -288,6 +288,12 @@ main {
     min-height: 100px;
     max-height: 100px;
   }
+
+  .flex-item:first-child {
+    min-height: 100px;
+    flex-basis: 100%;
+}
+
 
   .flex-container {
     flex-direction: column;
